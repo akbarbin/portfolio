@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Alveera :: Single Page Responsive Template Shared on (www.MafiaShare.net)</title>
+    <title>Akbarbin :: Ruby on Rails Developer</title>
     <!-- Main Style Sheet -->
     <link href="webroot/css/style.css" rel="stylesheet" type="text/css">
 

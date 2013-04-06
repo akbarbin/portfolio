@@ -26,7 +26,7 @@ class Pages extends CI_Controller {
     $this->load->view('pages/home');
     $this->load->view('pages/about');
     $this->load->view('pages/portfolio');
-    $this->load->view('pages/blog');
+    //$this->load->view('pages/blog');
     $this->load->view('pages/contact');
     $this->load->view('shared/footer');
   }
