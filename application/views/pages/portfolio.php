@@ -24,15 +24,15 @@
               <div class="callbacks_container">
                 <ul class="rslides" id="slider3">
                   <li>
-                    <img src="webroot/images/slider_img1.jpg" alt="" />
+                    <img src="<?php echo base_url()?>application/assets/images/slider_img1.jpg" alt="" />
                     <p class="caption">Buying and Selling Forum <a href="#" class="view-project">View Site</a></p>
                   </li>
                   <li>
-                    <img src="webroot/images/slider_img2.jpg" alt="" />
+                    <img src="<?php echo base_url()?>application/assets/images/slider_img2.jpg" alt="" />
                     <p class="caption">Portfolio Me <a href="#" class="view-project">View Site</a></p>
                   </li>
                   <li>
-                    <img src="webroot/images/slider_img3.jpg" alt="" />
+                    <img src="<?php echo base_url()?>application/assets/images/slider_img3.jpg" alt="" />
                     <p class="caption">Social Media API <a href="#" class="view-project">View Site</a></p>
                   </li>
                 </ul>
@@ -77,8 +77,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_1.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_1.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_1.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_1.jpg" alt="" /></div>    
                   </div>
                   <h3>Sunset Architecture</h3>
                 </div>
@@ -91,8 +91,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_2.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_2.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_2.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_2.jpg" alt="" /></div>    
                   </div>
                   <h3>Germany Cityscapes</h3>
                 </div>
@@ -105,8 +105,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_3.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_3.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_3.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_3.jpg" alt="" /></div>    
                   </div>
                   <h3>Fog Roads</h3>
                 </div>
@@ -119,8 +119,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_4.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_4.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_4.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_4.jpg" alt="" /></div>    
                   </div>
                   <h3>GoodNight</h3>
                 </div>
@@ -133,8 +133,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_5.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_5.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_5.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_5.jpg" alt="" /></div>    
                   </div>
                   <h3>Cityscapes Streets</h3>
                 </div>
@@ -147,8 +147,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_6.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_6.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_6.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_6.jpg" alt="" /></div>    
                   </div>
                   <h3>Kodak</h3>
                 </div>
@@ -161,8 +161,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_7.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_7.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_7.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_7.jpg" alt="" /></div>    
                   </div>
                   <h3>Train Car</h3>
                 </div>
@@ -175,8 +175,8 @@
               <div class="gallery-small">
                 <div class="gallery-outer">
                   <div class="mosaic-block circle">
-                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="webroot/images/image_8.jpg">&nbsp;</a>
-                    <div class="mosaic-backdrop"><img class="max-image" src="webroot/images/image_8.jpg" alt="" /></div>    
+                    <a rel="prettyPhoto[portfolio]" class="mosaic-overlay" href="<?php echo base_url()?>application/assets/images/image_8.jpg">&nbsp;</a>
+                    <div class="mosaic-backdrop"><img class="max-image" src="<?php echo base_url()?>application/assets/images/image_8.jpg" alt="" /></div>    
                   </div>
                   <h3>Danboard Box</h3>
                 </div>

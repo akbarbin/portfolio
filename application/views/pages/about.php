@@ -20,7 +20,7 @@
           </div>
           <div class="team-wrap">
             <div class="team-img">
-              <p><img src="webroot/images/team1.png" alt="" />
+              <p><img src="<?php echo base_url()?>application/assets/images/team1.png" alt="" />
               <div class="social-icons">
                 <ul>
                   <li><a href="http://twitter.com/akbarbin" target="_blank" class="twitter tipsy" title="Twitter">Twitter</a></li>

@@ -57,7 +57,7 @@
           </div>
           <div class="office-info">
             <div class="icon-wrap">
-              <img src="webroot/images/home_icon.png" alt=""/>
+              <img src="<?php echo base_url()?>application/assets/images/home_icon.png" alt=""/>
             </div>
             <strong>Address</strong><br>
             Bandung, West Java<br>
@@ -67,7 +67,7 @@
 
           <div class="office-info">
             <div class="icon-wrap">
-              <img src="webroot/images/contact_icon_small.png" alt=""/>
+              <img src="<?php echo base_url()?>application/assets/images/contact_icon_small.png" alt=""/>
             </div>
             <strong>Email</strong><br>
             <a href="#">muhamadakbarbw@gmail.com</a>
