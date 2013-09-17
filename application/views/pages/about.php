@@ -20,7 +20,7 @@
           </div>
           <div class="team-wrap">
             <div class="team-img">
-              <p><img src="<?php echo base_url()?>application/assets/images/team1.png" alt="" />
+              <p><img src="<?php echo base_url()?>application/assets/images/portfolio1.JPG" alt="" />
               <div class="social-icons">
                 <ul>
                   <li><a href="http://twitter.com/akbarbin" target="_blank" class="twitter tipsy" title="Twitter">Twitter</a></li>
@@ -38,7 +38,6 @@
             </div>
           </div>
         </div>
-
         <div class="span4">
           <div class="sub-head">
             <span>Our Skills</span>

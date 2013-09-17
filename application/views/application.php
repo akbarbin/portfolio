@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,11 +16,9 @@
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
   </head>
   <body>
     <div id="ef-loader-overlay"></div>
-
     <!-- JQuery Plugin -->
     <script type="text/javascript" src="webroot/js/jquery.min.js"></script>
     <script type='text/javascript' src='webroot/js/jquery.easing.1.3.js'></script>
@@ -42,9 +39,7 @@
     <script type="text/javascript">
       $(window).bind("load", function() {
         $(document).ready(function () {
-          $('#ef-loader-overlay').fadeOut(800);			
-				
-				
+          $('#ef-loader-overlay').fadeOut(800);
           $.fn.equalHeights = function(minHeight, maxHeight) {
             tallest = (minHeight) ? minHeight : 0;
             this.each(function() {
@@ -98,10 +93,7 @@
         // code here
       });
       $(window).load(function() {
-			
-			
       });
-		
     </script>
   </body>
 </html>
