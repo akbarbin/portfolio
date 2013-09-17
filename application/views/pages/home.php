@@ -2,7 +2,7 @@
 <div class="content" id="home">
   <div class="flexslider">
     <ul class="slides">
-      <li><img src="<?php echo base_url()?>application/assets/images/slider_img1.jpg" /></li>
+      <li><img src="<?php echo base_url()?>application/assets/images/slider_portfolio.png" /></li>
       <li><img src="<?php echo base_url()?>application/assets/images/slider_img2.jpg" /></li>
       <li><img src="<?php echo base_url()?>application/assets/images/slider_img3.jpg" /></li>
       <li><img src="<?php echo base_url()?>application/assets/images/slider_img4.jpg" /></li>

@@ -61,7 +61,7 @@
             </div>
             <strong>Address</strong><br>
             Bandung, West Java<br>
-            40252 Ancol Timur 9 No. 15 A<br>
+            40264 Penyu No. 40<br>
             Indonesia
           </div>
 
