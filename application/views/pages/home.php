@@ -3,11 +3,11 @@
   <div class="flexslider">
     <ul class="slides">
       <li><img src="<?php echo base_url()?>application/assets/images/slider_portfolio-v2-edit.png" /></li>
-      <li><img src="<?php echo base_url()?>application/assets/images/slider_img2.jpg" /></li>
-      <li><img src="<?php echo base_url()?>application/assets/images/slider_img3.jpg" /></li>
+      <li><img src="<?php echo base_url()?>application/assets/images/slider_portfolio2-v2-edit.png" /></li>
+<!--      <li><img src="<?php echo base_url()?>application/assets/images/slider_img3.jpg" /></li>
       <li><img src="<?php echo base_url()?>application/assets/images/slider_img4.jpg" /></li>
       <li><img src="<?php echo base_url()?>application/assets/images/slider_img5.jpg" /></li>
-      <li><img src="<?php echo base_url()?>application/assets/images/slider_img6.jpg" /></li>
+      <li><img src="<?php echo base_url()?>application/assets/images/slider_img6.jpg" /></li>-->
     </ul>
   </div>
   <div class="container">
