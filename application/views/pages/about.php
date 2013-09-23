@@ -53,34 +53,30 @@
         <div class="clearfix"></div>
         <div class="span4">
           <div class="sub-head">
-            <span>Strategy</span>
+            <span>Out the box</span>
           </div>
           <div class="team-wrap">
-            <p>My hobbies are watching television, reading book, and chit cat with my friends.
-              I love music, watches, shoes, travel, playing games football. Chelsea is my favorite
-              team.
+            <p>Out the box is powerful to get new idea. Which is expected to be the first step to get unusual results.
             </p>
           </div>
         </div>
         <div class="span4">
           <div class="sub-head">
-            <span>Discipline</span>
+            <span>Practiced direct</span>
           </div>
           <div class="team-wrap">
-            <p>My hobbies are watching television, reading book, and chit cat with my friends.
-              I love music, watches, shoes, travel, playing games football. Chelsea is my favorite
-              team.
+            <p>
+              To prevent the idea is lost. The practiced direct is needed.
             </p>
           </div>
         </div>
         <div class="span4">
           <div class="sub-head">
-            <span>Excellence</span>
+            <span>Communication</span>
           </div>
           <div class="team-wrap">
-            <p>My hobbies are watching television, reading book, and chit cat with my friends.
-              I love music, watches, shoes, travel, playing games football. Chelsea is my favorite
-              team.
+            <p>
+              Always maintain good communication with the client.
             </p>
           </div>
         </div>
