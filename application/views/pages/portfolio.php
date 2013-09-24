@@ -24,16 +24,16 @@
               <div class="callbacks_container">
                 <ul class="rslides" id="slider3">
                   <li>
-                    <img src="<?php echo base_url()?>application/assets/images/slider_img1.jpg" alt="" />
-                    <p class="caption">Buying and Selling Forum <a href="#" class="view-project">View Site</a></p>
+                    <img src="<?php echo base_url()?>application/assets/images/portfolio-web.png" alt=""/>
+                    <p class="caption">Portfolio Me <a href="<?php echo base_url()?>" target="_blank" class="view-project">View Site</a></p>
                   </li>
                   <li>
-                    <img src="<?php echo base_url()?>application/assets/images/slider_img2.jpg" alt="" />
-                    <p class="caption">Portfolio Me <a href="#" class="view-project">View Site</a></p>
+                    <img src="<?php echo base_url()?>application/assets/images/sikdjember-web.png" alt="" target="_blank"/>
+                    <p class="caption">Sistem Informasi Kinerja Daerah Kab. Jember <a href="http://sikd.bappeda-jemberkab.org/" target="_blank" class="view-project">View Site</a></p>
                   </li>
                   <li>
                     <img src="<?php echo base_url()?>application/assets/images/slider_img3.jpg" alt="" />
-                    <p class="caption">Social Media API <a href="#" class="view-project">View Site</a></p>
+                    <p class="caption">Buying and Selling Forum <a href="#" class="view-project">View Site</a></p>
                   </li>
                 </ul>
               </div>
@@ -41,26 +41,28 @@
           </div>
         </div>
         <div class="span4">
-          <h3>Project Heading</h3>
-          <p>Morbi vitae neque lectus, a venenatis felis. Curabitur id lacus at justo iaculis lacinia. Vestibulum nec odio leo. Pellentesque malesuada ullamcorper tellus pulvinar congue. Aenean sit amet turpis turpis, sit amet pellentesque augue. Sed in tristique lacus. Morbi vitae neque lectus, a venenatis felis. Curabitur id lacus at justo iaculis lacinia.</p>
-          <h3>Project Details</h3>
+          <h3>Project</h3>
+          <p>
+            During 2 years of my career in website development using ruby on rails. I want to show you about my portfolio. The portfolio when I work in office I can share the detail of the application. So, I only show to you the global project descriptions.
+          </p>
+          <h3>Project Lists</h3>
           <ul class="details-list">
-            <li>Wodpress</li>
-            <li>Design</li>
-            <li>SEO</li>
+            <li>Portfolio</li>
+            <li>Sistem Informasi Kinerja Daerah Kab. Jember</li>
+            <li>Buying and Selling Forum</li>
           </ul>
           <div class="clearfix">&nbsp;</div>
-          <p><a href="#" class="view-project">View Site</a></p>
+          <!--<p><a href="#" class="view-project">View Site</a></p>-->
         </div>
         <div class="span12">
           <div class="divider1">&nbsp;</div>
         </div>
-        <div class="span12">
+<!--        <div class="span12">
           <div class="sub-head">
             <span>Recent Work Gallery</span>
           </div>                        
-        </div>
-        <div id="portolfio-filter" class="span12">
+        </div>-->
+<!--        <div id="portolfio-filter" class="span12">
           <ul>
             <li><a data-filter="*" href="#" class="active">All</a></li>
             <li><a data-filter=".web" href="#">Web Design</a></li>
@@ -68,10 +70,10 @@
             <li><a data-filter=".wordpress" href="#">Wordpress</a></li>
             <li><a data-filter=".seo" href="#">SEO</a></li>
           </ul>
-        </div>
-        <div class="clearfix"></div>
+        </div>-->
+        <!--<div class="clearfix"></div>-->
 
-        <div id="content">
+<!--        <div id="content">
           <div class="seo">
             <div class="span3">
               <div class="gallery-small">
@@ -183,7 +185,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div>-->
         <div class="clearfix"></div>
       </div>
     </div>
