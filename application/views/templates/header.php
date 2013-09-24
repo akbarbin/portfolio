@@ -111,8 +111,8 @@
                 <li><a href="#home" class="menu">Home</a></li>
                 <li><a href="#about" class="menu">About Me</a></li>
                 <li><a href="#works" class="menu">Portfolio</a></li>
-                <li><a href="http://akbarbin.blogspot.com" target="_blank">Blog</a></li>
                 <li><a href="#contact" class="menu">Contact</a></li>
+                <li><a href="http://akbarbin.blogspot.com" target="_blank">Blog</a></li>
               </ul>
             </nav>
           </div>
