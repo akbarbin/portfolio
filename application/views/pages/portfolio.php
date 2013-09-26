@@ -32,8 +32,8 @@
                     <p class="caption">Sistem Informasi Kinerja Daerah Kab. Jember <a href="http://sikd.bappeda-jemberkab.org/" target="_blank" class="view-project">View Site</a></p>
                   </li>
                   <li>
-                    <img src="<?php echo base_url()?>application/assets/images/slider_img3.jpg" alt="" />
-                    <p class="caption">Buying and Selling Forum <a href="#" class="view-project">View Site</a></p>
+                    <img src="<?php echo base_url()?>application/assets/images/fjbpolitekniktelkom-web.png" alt="" />
+                    <p class="caption">Forum Jual Beli Politeknik Telkom <a href="http://fjbpolitekniktelkom.herokuapp.com/" target="_blank" class="view-project">View Site</a></p>
                   </li>
                 </ul>
               </div>
@@ -49,7 +49,7 @@
           <ul class="details-list">
             <li>Portfolio</li>
             <li>Sistem Informasi Kinerja Daerah Kab. Jember</li>
-            <li>Buying and Selling Forum</li>
+            <li>Forum Jual Beli Politeknik Telkom</li>
           </ul>
           <div class="clearfix">&nbsp;</div>
           <!--<p><a href="#" class="view-project">View Site</a></p>-->
