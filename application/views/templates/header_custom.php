@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <title>Akbarbin :: Ruby on Rails Developer</title>
     <!-- Main Style Sheet -->
-    <link href="webroot/css/style.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url()?>application/assets/css/style.css" rel="stylesheet" type="text/css">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="webroot/images/icons/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="webroot/images/icons/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="webroot/images/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="webroot/images/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="webroot/images/icons/apple-touch-icon-114x114.png" />
+    <link rel="shortcut icon" href="<?php echo base_url()?>application/assets/images/icons/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url()?>application/assets/images/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url()?>application/assets/images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url()?>application/assets/images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url()?>application/assets/images/icons/apple-touch-icon-114x114.png" />
 
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -22,22 +22,22 @@
     <div id="ef-loader-overlay"></div>
 
     <!-- JQuery Plugin -->
-    <script type="text/javascript" src="webroot/js/jquery.min.js"></script>
-    <script type='text/javascript' src='webroot/js/jquery.easing.1.3.js'></script>
-    <script type="text/javascript" src="webroot/js/jquery.flexslider.js"></script>
-    <script type="text/javascript" src="webroot/js/jquery.visualNav.min.js"></script>   
-    <script type="text/javascript" src="webroot/js/jquery.tipsy.js"></script>
-    <script type="text/javascript" src="webroot/js/responsiveslides.min.js"></script>    
-    <script type="text/javascript" src="webroot/js/jquery.scrollTo-min.js"></script>    
-    <script type="text/javascript" src="webroot/js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="webroot/js/mosaic-min.js"></script>
-    <script type="text/javascript" src="webroot/js/jquery.tweet.js"></script>
-    <script type="text/javascript" src="webroot/js/modernizr.js"></script>
-    <script type="text/javascript" src="webroot/js/isotope.js"></script>
-    <script type="text/javascript" src="webroot/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.min.js"></script>
+    <script type='text/javascript' src='<?php echo base_url()?>application/assets/js/jquery.easing.1.3.js'></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.visualNav.min.js"></script>   
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.tipsy.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/responsiveslides.min.js"></script>    
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.scrollTo-min.js"></script>    
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/mosaic-min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.tweet.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/modernizr.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/isotope.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>application/assets/js/jquery.validate.js"></script>
 
     <!-- JQuery Custom Plugin -->
-    <script src="webroot/js/custom.js"></script>
+    <script src="<?php echo base_url()?>application/assets/js/custom.js"></script>
     <script type="text/javascript">
       $(window).bind("load", function() {
         $(document).ready(function () {
@@ -107,17 +107,17 @@
         <div class="row">
           <div class="span3">
             <div id="logo">
-              <a href="#home" class="scrolltoanchor"><img src="webroot/images/logo.png" alt=""></a>
+              <a href="#home" class="scrolltoanchor"><img src="<?php echo base_url()?>application/assets/images/logo.png" alt=""></a>
             </div>
           </div>
           <div class="span9 pos-relative">
             <nav id="sidemenu">
               <ul id="nav">
-                <li><a href="#home" class="menu">Home</a></li>
-                <li><a href="#about" class="menu">About Me</a></li>
-                <li><a href="#works" class="menu">Portfolio</a></li>
+                <li><a href="/#home">Home</a></li>
+                <li><a href="/#about">About Me</a></li>
+                <li><a href="/#works">Portfolio</a></li>
                 <li><a href="http://akbarbin.blogspot.com" target="_blank">Blog</a></li>
-                <li><a href="#contact" class="menu">Contact</a></li>
+                <li><a href="/#contact">Contact</a></li>
               </ul>
             </nav>
           </div>

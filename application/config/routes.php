@@ -41,7 +41,12 @@ if (!defined('BASEPATH'))
   |
  */
 
-$route['default_controller'] = "pages/view";
+$route['news/destroy/(:any)'] = 'news/destroy/$1';
+$route['news/edit/(:any)'] = 'news/edit/$1';
+$route['news/create'] = 'news/create';
+$route['news/(:any)'] = 'news/show/$1';
+$route['news'] = 'news';
+$route['default_controller'] = 'pages/view';
 $route['404_override'] = '';
 
 
