@@ -6,7 +6,7 @@ $(document).ready(function() {
     controlNav: false, 
     easing: "swing", 
     direction: "horizontal",
-    controlsContainer: ".flex-container",
+    controlsContainer: ".flex-container"
   });
 });
 //================= End =============//
@@ -37,7 +37,7 @@ $(document).ready(function() {
   });
 	
   $('.bottom-social a.tipsy').tipsy({	
-    gravity: 's',    // gravity
+    gravity: 's'    // gravity
   });
 });
 //================= End =============//
@@ -48,14 +48,14 @@ $(document).ready(function() {
     auto: false,
     pager: true,
     nav: false,
-    speed: 1000,
+    speed: 1000
   });
   $("#slider3").responsiveSlides({
     auto: false,
     pager: false,
     nav: true,
     speed: 500,
-    namespace: "callbacks",        
+    namespace: "callbacks"
   });
 });
 //================= End =============//
@@ -77,7 +77,7 @@ $(document).ready(function(){
     theme:'light_square', 
     autoplay_slideshow: false, 
     overlay_gallery: false, 
-    show_title: false,
+    show_title: false
   });
 });
 //================= End =============//
@@ -181,15 +181,15 @@ $(document).ready(function(){
       var s_email=$("#email").val();
       var s_phone=$("#phone").val();
       var s_comment=$("#comment").val();
-      $.post("contact.php",{
-        name:s_name,
-        lastname:s_lastname,
+      $.post("index.php/contacts/create",{
+        first_name:s_name,
+        last_name:s_lastname,
         email:s_email,
-        phone:s_phone,
-        comment:s_comment
+        phone_number:s_phone,
+        content:s_comment
       },
       function(result){
-        $('#sucessmessage').append(result);
+        $('#sucessmessage').append(result.message);
       });
       $('#contact_form').hide();
       return false;
@@ -205,7 +205,7 @@ $(document).ready(function(){
         email: true
       },
       phone: {
-        required: true,
+        required: true
       },
       comment: {
         required: true
@@ -220,6 +220,6 @@ $(document).ready(function(){
       },
       phone: "Please enter a phone.",
       comment: "Please enter a comment."
-    },
+    }
   }); /*========================================*/
 });

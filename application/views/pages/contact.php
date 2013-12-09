@@ -29,19 +29,19 @@
             </div>
             <form id="contact_form" method="post" action="#" >
               <div class="span4">
-                <input type="text" class="span4" id="name" name="name" placeholder="First Name...">
+                <input type="text" class="span4" id="name" name="first_name" placeholder="First Name...">
               </div>
               <div class="span4">
-                <input type="text" class="span4" id="lastname" name="lastname" placeholder="Last Name...">
+                <input type="text" class="span4" id="lastname" name="last_name" placeholder="Last Name...">
               </div>
               <div class="span4">
                 <input type="text" class="span4" id="email" placeholder="Email..." name="email">
               </div>
               <div class="span4">
-                <input type="text" class="span4" id="phone" placeholder="Phone Number..." name="phone">
+                <input type="text" class="span4" id="phone" placeholder="Phone Number..." name="phone_number">
               </div>
               <div class="span8">
-                <textarea class="span8" id="comment" placeholder="Your comments..." name="comment"></textarea>
+                <textarea class="span8" id="comment" placeholder="Your comments..." name="content"></textarea>
               </div>
               <div class="span8">
                 <div>&nbsp;</div>
@@ -60,8 +60,8 @@
               <img src="<?php echo base_url()?>application/assets/images/home_icon.png" alt=""/>
             </div>
             <strong>Address</strong><br>
-            Bandung, West Java<br>
-            40264 Penyu No. 40<br>
+            Pasirian - Lumajang, East Java<br>
+            473721 Buk Serang No. 107 Kedung Pakis<br>
             Indonesia
           </div>
 

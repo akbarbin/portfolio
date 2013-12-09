@@ -27,7 +27,7 @@ class News extends CI_Controller {
 
     if ($this->form_validation->run() === FALSE) {
       $this->load->view('templates/header_custom');
-      $this->load->view('news/create');
+      $this->load->view('news/create', $data);
       $this->load->view('templates/footer');
     } else {
       $this->news_model->set_news();
