@@ -52,9 +52,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'akbarbin';
-$db['default']['password'] = 'akbarbin';
-$db['default']['database'] = 'akbarbin';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '12345678';
+$db['default']['database'] = 'portfolio_development';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -67,6 +67,21 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+$db['testing']['hostname'] = "mysql15.000webhost.com";
+$db['testing']['username'] = "a7524390_portfol";
+$db['testing']['password'] = "portfolio1234";
+$db['testing']['database'] = "a7524390_portfol";
+$db['testing']['dbdriver'] = "mysql";
+$db['testing']['dbprefix'] = "";
+$db['testing']['pconnect'] = TRUE;
+$db['testing']['db_debug'] = FALSE;
+$db['testing']['cache_on'] = FALSE;
+$db['testing']['cachedir'] = "";
+$db['testing']['char_set'] = "utf8";
+$db['testing']['dbcollat'] = "utf8_general_ci";
+$db['testing']['swap_pre'] = "";
+$db['testing']['autoinit'] = TRUE;
+$db['testing']['stricton'] = FALSE;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
