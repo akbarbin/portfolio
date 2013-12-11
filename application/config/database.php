@@ -67,21 +67,21 @@ $db['development']['swap_pre'] = '';
 $db['development']['autoinit'] = TRUE;
 $db['development']['stricton'] = FALSE;
 
-$db['testing']['hostname'] = "mysql15.000webhost.com";
-$db['testing']['username'] = "a7524390_portfol";
-$db['testing']['password'] = "portfolio1234";
-$db['testing']['database'] = "a7524390_portfol";
-$db['testing']['dbdriver'] = "mysql";
-$db['testing']['dbprefix'] = "";
-$db['testing']['pconnect'] = TRUE;
-$db['testing']['db_debug'] = FALSE;
-$db['testing']['cache_on'] = FALSE;
-$db['testing']['cachedir'] = "";
-$db['testing']['char_set'] = "utf8";
-$db['testing']['dbcollat'] = "utf8_general_ci";
-$db['testing']['swap_pre'] = "";
-$db['testing']['autoinit'] = TRUE;
-$db['testing']['stricton'] = FALSE;
+$db['production']['hostname'] = "mysql15.000webhost.com";
+$db['production']['username'] = "a7524390_portfol";
+$db['production']['password'] = "portfolio1234";
+$db['production']['database'] = "a7524390_portfol";
+$db['production']['dbdriver'] = "mysql";
+$db['production']['dbprefix'] = "";
+$db['production']['pconnect'] = TRUE;
+$db['production']['db_debug'] = FALSE;
+$db['production']['cache_on'] = FALSE;
+$db['production']['cachedir'] = "";
+$db['production']['char_set'] = "utf8";
+$db['production']['dbcollat'] = "utf8_general_ci";
+$db['production']['swap_pre'] = "";
+$db['production']['autoinit'] = TRUE;
+$db['production']['stricton'] = FALSE;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
