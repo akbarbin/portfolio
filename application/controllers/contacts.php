@@ -17,7 +17,20 @@ class Contacts extends CI_Controller {
   }
 
   public function create() {
+    $this->load->library('email');
     $this->contacts_model->set_contacts();
+    $this->contacts_model->sending_email_to_me();
+
+    $this->email->from($_POST['email'], $_POST['first_name']);
+    $this->email->to('muhamadakbarbw@gmail.com');
+
+    $this->email->subject('Contact Portfolio');
+    $this->email->message($_POST['content']);
+
+    $this->email->send();
+
+    echo $this->email->print_debugger();
+
     $this->output
             ->set_content_type('application/json')
             ->set_output(json_encode(array('message' => "Successfully sending the contact. Thanks")));
