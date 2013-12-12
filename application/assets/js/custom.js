@@ -206,9 +206,9 @@ $(document).ready(function(){
         required: true,
         email: true
       },
-      phone_number: {
-        required: true
-      },
+//      phone_number: {
+//        required: true
+//      },
       content: {
         required: true
       }
