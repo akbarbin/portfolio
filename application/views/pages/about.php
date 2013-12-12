@@ -6,10 +6,12 @@
           <h1 class="heading"><span>About Me</span></h1>
           <h2 class="subheading"><span>Subheading Goes Here</span></h2>
           <div class="short-intro">
-            <p>I am Muhamad Akbar Bin Widayat and I live in Bandung, West Java. I am website developer experience on Ruby on Rails framework.
-              I creative to build a website and we enjoy when my client satisfied about my work.
-              The principle of me are strategy, discipline, and excellence. Please going with 
-              me on making website. I ready to build your website.</p>
+            <p>My name is Muhamad Akbar Bin Widayat, ST. Currently, I live in Pasirian - Lumajang , East Java.
+              Akbar is a person that always have a big dreams. One of my dream, I want to be a good entrepreneur ICT in Indonesia.
+              The last month at November 2013, I graduated from Informatics Techniques at STMIK Bandung.
+              While I study in STMIK Bandung, I am web developer worked in PT Walden Global Services with 2 years experiences in Ruby on Rails and codeIgniter framework.
+              I creative to build a web and we enjoy when my client satisfied about my work.
+              The principle of me are out of the box, practice direct, and communication. Please going with my team on making website.</p>
           </div>
         </div>
 
@@ -20,7 +22,7 @@
           </div>
           <div class="team-wrap">
             <div class="team-img">
-              <p><img src="<?php echo base_url()?>application/assets/images/portfolio1.JPG" alt="" />
+              <p><img src="<?php echo base_url() ?>application/assets/images/portfolio1.JPG" alt="" />
               <div class="social-icons">
                 <ul>
                   <li><a href="http://twitter.com/akbarbin" target="_blank" class="twitter tipsy" title="Twitter">Twitter</a></li>
@@ -44,6 +46,7 @@
           </div>
           <ul id="services-graph">		
             <li><span title="93"></span><p>Ruby on Rails <strong>93%</strong></p></li>
+            <li><span title="93"></span><p>CodeIgniter <strong>70%</strong></p></li>
             <li><span title="87"></span><p>Jquery <strong>87%</strong></p></li>
             <li><span title="82"></span><p>Ubuntu <strong>82%</strong></p></li>
             <li><span title="78"></span><p>HTML5/CSS <strong>78%</strong></p></li>

@@ -14,7 +14,7 @@
     <div class="row">
       <div class="span12">
         <div class="intro-wrap">
-          I am web developer <span>Ruby On Rails</span> framework based in <span>Bandung, West Java</span>. I enjoy creating <span>web apps</span> with good application.
+          I am young entrepreneur on making web application based in <span>Lumajang, East Java </span> using <span>ruby on rails and codeIgniter </span> framework.
         </div>
         <p class="intro-txt"></p>
         <div class="home-btn">
