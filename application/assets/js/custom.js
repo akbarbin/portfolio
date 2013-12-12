@@ -189,37 +189,39 @@ $(document).ready(function(){
         content:s_comment
       },
       function(result){
+        $('#sucessmessage').text('');
         $('#sucessmessage').append(result.message);
       });
+      $('#sucessmessage').append("Waiting...");
       $('#contact_form').hide();
       return false;
     },
     /* */
     rules: {
-      name: "required",
+      first_name: "required",
 			
-      lastname: "required",
+      last_name: "required",
       // simple rule, converted to {required:true}
       email: { // compound rule
         required: true,
         email: true
       },
-      phone: {
+      phone_number: {
         required: true
       },
-      comment: {
+      content: {
         required: true
       }
     },
     messages: {
-      name: "Please enter your name.",
-      lastname: "Please enter your last name.",
+      first_name: "Please enter your name.",
+      last_name: "Please enter your last name.",
       email: {
         required: "Please enter email.",
         email: "Please enter valid email"
       },
-      phone: "Please enter a phone.",
-      comment: "Please enter a comment."
+      phone_number: "Please enter a phone.",
+      content: "Please enter a comment."
     }
   }); /*========================================*/
 });

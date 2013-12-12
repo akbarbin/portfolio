@@ -30,6 +30,20 @@ class Contacts_model extends CI_Model {
     return $this->db->insert('contacts', $data);
   }
 
+  //created by: Muhamad Akbar Bin Widayat
+  //Sending email to me
+  public function sending_email_to_me() {
+    $this->load->library('email');
+    $this->email->set_newline("\r\n");
+    $this->email->from($_POST['email'], $_POST['first_name']);
+    $this->email->to('muhamadakbarbw@gmail.com');
+
+    $this->email->subject('Contact Portfolio');
+    $this->email->message($_POST['content']);
+
+    $this->email->send();
+  }
+
 }
 
 ?>
