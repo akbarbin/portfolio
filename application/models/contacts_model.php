@@ -33,15 +33,27 @@ class Contacts_model extends CI_Model {
   //created by: Muhamad Akbar Bin Widayat
   //Sending email to me
   public function sending_email_to_me() {
-    $this->load->library('email');
+    $config = Array(
+        'protocol' => 'smtp',
+        'smtp_host' => 'ssl://smtp.googlemail.com',
+        'smtp_port' => 465,
+        'smtp_user' => 'muhamadakbarbin@gmail.com',
+        'smtp_pass' => 'akbarb1n',
+        'mailtype' => 'html',
+        'charset' => 'iso-8859-1'
+    );
+    $this->load->library('email', $config);
     $this->email->set_newline("\r\n");
     $this->email->from($_POST['email'], $_POST['first_name']);
     $this->email->to('muhamadakbarbw@gmail.com');
 
     $this->email->subject('Contact Portfolio');
     $this->email->message($_POST['content']);
-
-    $this->email->send();
+    if (!$this->email->send()) {
+      // Generate error
+      print_r($this->email->print_debugger());
+      die();
+    }
   }
 
 }
