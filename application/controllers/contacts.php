@@ -18,7 +18,7 @@ class Contacts extends CI_Controller {
 
   public function create() {
     $this->contacts_model->set_contacts();
-    $this->contacts_model->sending_email_to_me();
+    //$this->contacts_model->sending_email_to_me();
 
     $this->output
             ->set_content_type('application/json')
