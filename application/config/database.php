@@ -53,7 +53,7 @@ $active_record = TRUE;
 
 $db['development']['hostname'] = 'localhost';
 $db['development']['username'] = 'root';
-$db['development']['password'] = '12345678';
+$db['development']['password'] = '';
 $db['development']['database'] = 'portfolio_development';
 $db['development']['dbdriver'] = 'mysql';
 $db['development']['dbprefix'] = '';

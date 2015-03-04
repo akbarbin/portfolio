@@ -181,7 +181,7 @@ $(document).ready(function(){
       var s_email=$("#email").val();
       var s_phone=$("#phone").val();
       var s_comment=$("#comment").val();
-      $.post("index.php/contacts/create",{
+      $.post("contacts/create",{
         first_name:s_name,
         last_name:s_lastname,
         email:s_email,
