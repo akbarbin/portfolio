@@ -113,11 +113,11 @@
           <div class="span9 pos-relative">
             <nav id="sidemenu">
               <ul id="nav">
-                <li><a href="/#home">Home</a></li>
-                <li><a href="/#about">About Me</a></li>
-                <li><a href="/#works">Portfolio</a></li>
+                <li><a href="<?php echo site_url(); ?>/#home">Home</a></li>
+                <li><a href="<?php echo site_url(); ?>/#about">About Me</a></li>
+                <li><a href="<?php echo site_url(); ?>/#works">Portfolio</a></li>
                 <li><a href="http://akbarbin.blogspot.com" target="_blank">Blog</a></li>
-                <li><a href="/#contact">Contact</a></li>
+                <li><a href="<?php echo site_url(); ?>/#contact">Contact</a></li>
               </ul>
             </nav>
           </div>

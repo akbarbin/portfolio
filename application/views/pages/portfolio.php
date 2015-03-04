@@ -5,25 +5,35 @@
       <div class="page-space">
         <div class="span12">
           <h1 class="heading"><span>Portfolio</span></h1>
-          <h2 class="subheading"><span>Goes Here</span></h2>                    
+          <h2 class="subheading"><span>Goes Here</span></h2>
           <div class="short-intro">
             <p>
-              When my career in creating web applications while working in the office and freelance, I have got science.
-              I have many experience when making web application and three projects that has been
-              created. I want to show you about my portfolio that has been created by me.
+              When I have been working in the office and freelance, I have got knowledge and experiences. I had many experiences when I made web applications. I'll show you about my portfolios that has been created by me.
             </p>
           </div>
         </div>
         <div class="span12">
           <div class="sub-head">
             <span>Featured Project</span>
-          </div>                        
+          </div>
         </div>
         <div class="span8">
           <div class="outer-big">
             <div class="port-outer">
               <div class="callbacks_container">
                 <ul class="rslides" id="slider3">
+                  <li>
+                    <img src="<?php echo base_url() ?>application/assets/images/usahabibit.png" alt=""/>
+                    <p class="caption">Usahabibit.com <a href="http://usahabibit.com" target="_blank" class="view-project">View Site</a></p>
+                  </li>
+                  <li>
+                    <img src="<?php echo base_url() ?>application/assets/images/rumahsda.png" alt=""/>
+                    <p class="caption">Rumah Sumber Daya Alam<a href="http://usahabibit.com" target="_blank" class="view-project">View Site</a></p>
+                  </li>
+                  <li>
+                    <img src="<?php echo base_url() ?>application/assets/images/widayat.png" alt=""/>
+                    <p class="caption">Widayat.com <a href="#" target="_blank" class="view-project">View Site</a></p>
+                  </li>
                   <li>
                     <img src="<?php echo base_url() ?>application/assets/images/portfolio-web.png" alt=""/>
                     <p class="caption">Portfolio Me <a href="<?php echo base_url() ?>" target="_blank" class="view-project">View Site</a></p>
@@ -44,11 +54,14 @@
         <div class="span4">
           <h3>Project</h3>
           <p>
-            During 2 years of my career in website development using ruby on rails and codeIgniter. I want to show you about my portfolio. The portfolio when I work in office I can share the detail of the application. So, I only show to you the global project descriptions.
+            During 2 years of my career in website development using ruby on rails and codeIgniter, I want to show you about my portfolios.
           </p>
           <h3>Project Lists</h3>
           <ul class="details-list">
-            <li>Portfolio</li>
+            <li>Usaha Bibit</li>
+            <li>Rumah Sumber Daya Alam</li>
+            <li>Widayat</li>
+            <li>Akbar Portfolio</li>
             <li>Sistem Informasi Kinerja Daerah Kab. Jember</li>
             <li>Forum Jual Beli Politeknik Telkom</li>
           </ul>

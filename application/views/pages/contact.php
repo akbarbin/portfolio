@@ -4,10 +4,10 @@
       <div class="page-space">
         <div class="span12">
           <h1 class="heading"><span>Contact Us</span></h1>
-          <h2 class="subheading"><span>Goes Here</span></h2>                    
+          <h2 class="subheading"><span>Goes Here</span></h2>
           <div class="short-intro">
-            <p>Get in touch with me. Say about what you need to make Web site. And I will
-              do the best. Thank you.
+            <p>Get in touch with me. Say about what you need to make your website. And I will
+              do my best. Thank you.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@
                 <input type="submit" value="Submit" class="btn btn-warning">
               </div>
             </form>
-          </div>                        
+          </div>
         </div>
 
         <div class="span4">

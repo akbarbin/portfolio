@@ -14,7 +14,7 @@
     <div class="row">
       <div class="span12">
         <div class="intro-wrap">
-          I am young entrepreneur on making web application based in <span>Lumajang, East Java </span> using <span>ruby on rails and codeIgniter </span> framework.
+          I am developer on making web application based in <span>Lumajang, East Java </span> using <span>ruby on rails and PHP codeIgniter </span> framework.
         </div>
         <p class="intro-txt"></p>
         <div class="home-btn">
