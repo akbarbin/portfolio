@@ -20,6 +20,7 @@
         <div class="home-btn">
           <p><a href="#works" class="portfolio-btn scrolltoanchor"><img src="<?php echo base_url()?>application/assets/images/portfolio_icon.png" alt=""/> <span>View <br>Portfolio</span></a></p>
           <p><a href="#contact" class="contact-btn scrolltoanchor"><img src="<?php echo base_url()?>application/assets/images/contact_icon.png" alt=""/> <span>View <br>Contact</span></a></p>
+          <p><a href="<?php echo site_url(); ?>/pages/download_proposal" class="contact-btn scrolltoanchor"><img src="<?php echo base_url()?>application/assets/images/portfolio_icon.png" alt=""/> <span>View <br>Proposal</span></a></p>
         </div>
       </div>
     </div>

@@ -14,4 +14,11 @@ class Pages extends CI_Controller {
     $this->load->view('templates/footer');
   }
 
+  public function download_proposal() {
+    $this->load->helper('download');
+    $data = file_get_contents(FCPATH ."/download/proposal.pdf"); // Read the file's contents
+    $name = 'proposal.pdf';
+
+    force_download($name, $data);
+  }
 }
