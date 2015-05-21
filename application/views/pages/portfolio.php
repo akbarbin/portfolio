@@ -23,8 +23,12 @@
               <div class="callbacks_container">
                 <ul class="rslides" id="slider3">
                   <li>
+                    <img src="<?php echo base_url() ?>application/assets/images/mascitra.png" alt=""/>
+                    <p class="caption">CV. Citra Gemilang <a href="http://mascitra.com" target="_blank" class="view-project">View Site</a></p>
+                  </li>
+                  <li>
                     <img src="<?php echo base_url() ?>application/assets/images/usahabibit.png" alt=""/>
-                    <p class="caption">Usahabibit.com <a href="http://usahabibit.com" target="_blank" class="view-project">View Site</a></p>
+                    <p class="caption">CV. Mitra Buana <a href="http://usahabibit.com" target="_blank" class="view-project">View Site</a></p>
                   </li>
                   <li>
                     <img src="<?php echo base_url() ?>application/assets/images/rumahsda.png" alt=""/>
@@ -58,7 +62,8 @@
           </p>
           <h3>Project Lists</h3>
           <ul class="details-list">
-            <li>Usaha Bibit</li>
+            <li>CV. Citra Gemilang</li>
+            <li>CV. Mitra Buana</li>
             <li>Rumah Sumber Daya Alam</li>
             <li>Widayat</li>
             <li>Akbar Portfolio</li>
